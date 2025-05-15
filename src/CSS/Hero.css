@@ -1,0 +1,28 @@
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #f5f5f5;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.main-banner {
+  padding: 10px;
+  border-radius: 10px;
+  width:100%;
+  height:100% ;
+  padding-left:4.5%; 
+}
+
+.banner-left {
+
+  border-radius: 10px;
+  padding: 10px;
+  text-align: left;
+
+}
+.banner-right  {
+  height: 288px;
+}
