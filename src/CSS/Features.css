@@ -1,0 +1,65 @@
+body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.features {
+  width: 75%; /* ~1320px */
+  height: 20vh;
+  margin: 0.2vh auto ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 1.25rem; /* 20px */
+  padding: 0.1vh; /* 40px */
+  background-color: #ffffff;
+  box-shadow: 0 0.25rem 1.25rem rgba(0, 0, 0, 0.1);
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+.Icons {
+  width: 2.5rem; /* 40px */
+  height: 2.5rem;
+  color: #00B207;
+  font-weight: 100;
+}
+
+.col {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+  width: 15vw; /* Responsive to viewport width */
+  min-width: 12rem; /* Ensures a minimum for smaller screens */
+  height: auto;
+}
+
+.feat-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  text-align: left;
+  margin: 0%;
+}
+
+.feat-text h5 {
+  font-weight: 600;
+  font-size: 16px; /* 16px */
+  color: #1A1A1A;
+  margin-bottom: 0%;
+}
+
+.feat-text p {
+  font-weight: 400;
+  font-size: 14px; /* 14px */
+  color: #999999;
+    margin: 0%;
+}
+
+.container{
+    align-content: center;
+    justify-content: center;
+}
