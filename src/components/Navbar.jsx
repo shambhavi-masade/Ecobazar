@@ -70,7 +70,8 @@ function Navbar() {
       </div>
       </div>
 
-      <div className="nav3">
+      <div className="containers-nav3">
+         <div className="nav3">
         <div className="nav3-links">
           <p className="nav3-link">
             Home <RiArrowDropDownLine className="nav3-icons" />
@@ -91,6 +92,7 @@ function Navbar() {
           <FaPhoneVolume className="nav3-phone-icon" />
           <p>(219) 555-0114</p>
         </div>
+      </div>
       </div>
     </nav>
   );
